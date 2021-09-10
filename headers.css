@@ -1,0 +1,29 @@
+/* CSS Document */
+
+.header-text {
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	width: 100%;
+  	text-align: center;
+	vertical-align: middle;
+  	color: black;
+	opacity: 40%;
+  	font-size: 90px;
+	letter-spacing: 0.2em;
+}
+
+.video-header {
+	width: 100%; 
+	border:0;
+	object-fit:fill;
+}
+
+.video-header-tldr {
+	width: 50%; 
+	border:0;
+	object-fit:fill;
+	margin-left: 25%;
+}
+
+
