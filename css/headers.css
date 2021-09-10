@@ -19,4 +19,11 @@
 	object-fit:fill;
 }
 
+.video-header-tldr {
+	width: 50%; 
+	border:0;
+	object-fit:fill;
+	margin-left: 25%;
+}
+
 
