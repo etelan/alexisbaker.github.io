@@ -2,14 +2,49 @@
 <html>
 <link href="css/headers.css" rel="stylesheet" type="text/css">
 <link href="fonts/fonts.css" rel="stylesheet" type="text/css">
-<div style="background-color:#382C3C">
+
+<div style="background-color:#382C3C; position: absolute">
 	<div class="header-text">
-		<h1 style="font-family: 'botsmatic_outlineregular'">home</h1>
+		<h1 style="font-family: 'botsmatic_outlineregular'"></h1>
 	</div>
-	<video autoplay muted loop src="movies/waves.mp4" class="video-header">The Video is not Loading.</video>
+	
+	<img id="arrow-bouey" src="image/arrow.png" alt="arrow-bouey" hidden="true" style="position: absolute; width: 10%; height: 10%; margin-left: 10%; margin-top: 25%">
+	
+	<img id="arrow-duck" src="image/arrow.png"  alt="arrow-duck" hidden="true" style="position: absolute; width: 10%; height: 10%; margin-left: 55%; margin-top: 30%">
+
+	<video autoplay muted loop src="movies/AlexisTitle.mp4" class="video-header">The Video is not Loading.</video>
+
 </div>
+	
+<div id="duck" onmouseover="mouseOverDuck()"  onmouseout="mouseOutDuck()" style="position: absolute; width: 10%; height: 30%; margin-left: 65%; margin-top: 30%"></div>
+<div id="bouey" onmouseover="mouseOverBouey()"  onmouseout="mouseOutBouey()" style="position: absolute; width: 10%; height: 65%; margin-left: 20%; margin-top: 15%"></div>
 
+	
+<script>
+	function mouseOverBouey() {
+	  document.getElementById("arrow-bouey").hidden = false;
+	}
+
+	function mouseOutBouey() {
+	  document.getElementById("arrow-bouey").hidden = true;
+	}
+	
+	function mouseOverDuck() {
+	  document.getElementById("arrow-duck").hidden = false;
+	}
+
+	function mouseOutDuck() {
+	  document.getElementById("arrow-duck").hidden = true;
+	}
+</script>
 <body style="background-color:#382C3C">
-
+  sfdjhggjfdhsjhgsdfjhgfdsjhg
+	some
+	body
+	once
+	told me
+	the world
+	was gonna roll me
+	
 </body>
 </html>
